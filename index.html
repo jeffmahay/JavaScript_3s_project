@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta and title tags -->
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <button class="new-game">New Game</button>
+      <div>Rules:</div>
+      <p>
+        2: Can always play <br>
+        7: Must play a card of lower value <br>
+        10: Deletes the discard pile *Not implemented yet* <br></br>
+        Player must always have 3 cards minimum in their hand. <br>
+        Must play a card of higher or same value. <br>
+        If you cannot meet these conditions, you must draw the entire discard pile. <br>
+        Player wins if they can get through the entire deck.
+      </p>
+      <div class="game-container">
+        <b class="draw-title"></b>
+        <div class="draw-pile"></div>
+        <button class="draw" hidden>Draw a card</button>
+        <b class="cards-remaining"></b>
+        <div class="opponent-hand"></div>
+        <b class="discard-title"></b>  
+        <div class="discard-pile"></div>        
+        <div></div>      
+        <button class="lose-button" hidden>Can't Play</button>
+        <div></div>
+        <b class="hand-title"></b>         
+        <div class="player-hand"></div>        
+
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
